@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\exportadmf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\3rd\rapidjson\allocators.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\document.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\encodedstream.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\encodings.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\error\en.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\error\error.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\filereadstream.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\filewritestream.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\fwd.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\itoa.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\meta.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\pow10.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\regex.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\stack.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\strtod.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\internal\swap.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\memorybuffer.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\memorystream.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\pointer.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\prettywriter.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\rapidjson.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\reader.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\schema.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\stream.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\stringbuffer.h" />
+    <ClInclude Include="..\..\src\3rd\rapidjson\writer.h" />
+    <ClInclude Include="..\..\src\exportadmf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\changecolor\project\linux\changecolor.vcxproj">
+      <Project>{ddd27eca-6691-4ada-8c27-6b9b17469d99}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20D5DC1A-E366-4BFA-890E-DB59F1FBECAA}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>_exportadmf</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../../3rd;$(ProjectDir)../../../;/root/projects/admfsdk/admfsdk/interface;/root/projects/admfsdk/admfsdk/internal;/root/projects/admfsdk/3rd/ZipLib;/root/projects/4ddat_to_admf/3rd;/root/projects/exportadmf/src/3rd/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BSON_COMPILATION;ADMF_EDIT;</PreprocessorDefinitions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pthread</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../../3rd;$(ProjectDir)../../../;/root/projects/admfsdk/admfsdk/interface;/root/projects/admfsdk/admfsdk/internal;/root/projects/admfsdk/3rd/ZipLib;/root/projects/4ddat_to_admf/3rd;/root/projects/exportadmf/src/3rd/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BSON_COMPILATION;ADMF_EDIT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pthread</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../../3rd;$(ProjectDir)../../../;/root/projects/admfsdk/admfsdk/interface;/root/projects/admfsdk/admfsdk/internal;/root/projects/admfsdk/3rd/ZipLib;/root/projects/4ddat_to_admf/3rd;/root/projects/exportadmf/src/3rd/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BSON_COMPILATION;ADMF_EDIT;</PreprocessorDefinitions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pthread</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../../3rd;$(ProjectDir)../../../;/root/projects/admfsdk/admfsdk/interface;/root/projects/admfsdk/admfsdk/internal;/root/projects/admfsdk/3rd/ZipLib;/root/projects/4ddat_to_admf/3rd;/root/projects/exportadmf/src/3rd/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BSON_COMPILATION;ADMF_EDIT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pthread</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../../3rd;$(ProjectDir)../../../;/root/projects/admfsdk/admfsdk/interface;/root/projects/admfsdk/admfsdk/internal;/root/projects/admfsdk/3rd/ZipLib;/root/projects/4ddat_to_admf/3rd;/root/projects/exportadmf/src/3rd/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BSON_COMPILATION;ADMF_EDIT;</PreprocessorDefinitions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pthread</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../../3rd;$(ProjectDir)../../../;/root/projects/admfsdk/admfsdk/interface;/root/projects/admfsdk/admfsdk/internal;/root/projects/admfsdk/3rd/ZipLib;/root/projects/4ddat_to_admf/3rd;/root/projects/exportadmf/src/3rd/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BSON_COMPILATION;ADMF_EDIT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pthread</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../../3rd;$(ProjectDir)../../../;/root/projects/admfsdk/admfsdk/interface;/root/projects/admfsdk/admfsdk/internal;/root/projects/admfsdk/3rd/ZipLib;/root/projects/4ddat_to_admf/3rd;/root/projects/exportadmf/src/3rd/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BSON_COMPILATION;ADMF_EDIT;</PreprocessorDefinitions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pthread</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../../3rd;$(ProjectDir)../../../;/root/projects/admfsdk/admfsdk/interface;/root/projects/admfsdk/admfsdk/internal;/root/projects/admfsdk/3rd/ZipLib;/root/projects/4ddat_to_admf/3rd;/root/projects/exportadmf/src/3rd/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BSON_COMPILATION;ADMF_EDIT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+    </ClCompile>
+    <Link>
+      <LibraryDependencies>pthread</LibraryDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

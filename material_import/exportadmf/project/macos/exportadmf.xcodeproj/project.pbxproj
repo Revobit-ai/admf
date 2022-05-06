@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1654120268D52C400D6F168 /* exportadmf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B165411F268D52C400D6F168 /* exportadmf.cpp */; };
+		B1654122268D5D6600D6F168 /* exportadmf.h in Headers */ = {isa = PBXBuildFile; fileRef = B1654121268D5D6600D6F168 /* exportadmf.h */; };
+		B180FD60271424B100E70163 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD3A271424B100E70163 /* fwd.h */; };
+		B180FD61271424B100E70163 /* memorystream.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD3B271424B100E70163 /* memorystream.h */; };
+		B180FD62271424B100E70163 /* reader.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD3C271424B100E70163 /* reader.h */; };
+		B180FD63271424B100E70163 /* prettywriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD3D271424B100E70163 /* prettywriter.h */; };
+		B180FD64271424B100E70163 /* ostreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD3E271424B100E70163 /* ostreamwrapper.h */; };
+		B180FD65271424B100E70163 /* encodedstream.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD3F271424B100E70163 /* encodedstream.h */; };
+		B180FD66271424B100E70163 /* filereadstream.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD40271424B100E70163 /* filereadstream.h */; };
+		B180FD67271424B100E70163 /* istreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD41271424B100E70163 /* istreamwrapper.h */; };
+		B180FD68271424B100E70163 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD42271424B100E70163 /* stringbuffer.h */; };
+		B180FD69271424B100E70163 /* ieee754.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD44271424B100E70163 /* ieee754.h */; };
+		B180FD6A271424B100E70163 /* strtod.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD45271424B100E70163 /* strtod.h */; };
+		B180FD6B271424B100E70163 /* swap.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD46271424B100E70163 /* swap.h */; };
+		B180FD6C271424B100E70163 /* regex.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD47271424B100E70163 /* regex.h */; };
+		B180FD6D271424B100E70163 /* diyfp.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD48271424B100E70163 /* diyfp.h */; };
+		B180FD6E271424B100E70163 /* biginteger.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD49271424B100E70163 /* biginteger.h */; };
+		B180FD6F271424B100E70163 /* strfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD4A271424B100E70163 /* strfunc.h */; };
+		B180FD70271424B100E70163 /* itoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD4B271424B100E70163 /* itoa.h */; };
+		B180FD71271424B100E70163 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD4C271424B100E70163 /* stack.h */; };
+		B180FD72271424B100E70163 /* dtoa.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD4D271424B100E70163 /* dtoa.h */; };
+		B180FD73271424B100E70163 /* meta.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD4E271424B100E70163 /* meta.h */; };
+		B180FD74271424B100E70163 /* pow10.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD4F271424B100E70163 /* pow10.h */; };
+		B180FD75271424B100E70163 /* encodings.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD50271424B100E70163 /* encodings.h */; };
+		B180FD76271424B100E70163 /* schema.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD51271424B100E70163 /* schema.h */; };
+		B180FD77271424B100E70163 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD52271424B100E70163 /* stream.h */; };
+		B180FD78271424B100E70163 /* filewritestream.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD53271424B100E70163 /* filewritestream.h */; };
+		B180FD79271424B100E70163 /* rapidjson.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD54271424B100E70163 /* rapidjson.h */; };
+		B180FD7A271424B100E70163 /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD55271424B100E70163 /* document.h */; };
+		B180FD7B271424B100E70163 /* allocators.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD56271424B100E70163 /* allocators.h */; };
+		B180FD7C271424B100E70163 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD57271424B100E70163 /* writer.h */; };
+		B180FD7D271424B100E70163 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD59271424B100E70163 /* error.h */; };
+		B180FD7E271424B100E70163 /* en.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD5A271424B100E70163 /* en.h */; };
+		B180FD7F271424B100E70163 /* memorybuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD5B271424B100E70163 /* memorybuffer.h */; };
+		B180FD80271424B100E70163 /* pointer.h in Headers */ = {isa = PBXBuildFile; fileRef = B180FD5C271424B100E70163 /* pointer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B165411E268D529B00D6F168 /* libexportadmf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libexportadmf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B165411F268D52C400D6F168 /* exportadmf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = exportadmf.cpp; path = ../../src/exportadmf.cpp; sourceTree = "<group>"; };
+		B1654121268D5D6600D6F168 /* exportadmf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = exportadmf.h; path = ../../src/exportadmf.h; sourceTree = "<group>"; };
+		B180FD3A271424B100E70163 /* fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fwd.h; sourceTree = "<group>"; };
+		B180FD3B271424B100E70163 /* memorystream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorystream.h; sourceTree = "<group>"; };
+		B180FD3C271424B100E70163 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		B180FD3D271424B100E70163 /* prettywriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prettywriter.h; sourceTree = "<group>"; };
+		B180FD3E271424B100E70163 /* ostreamwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ostreamwrapper.h; sourceTree = "<group>"; };
+		B180FD3F271424B100E70163 /* encodedstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodedstream.h; sourceTree = "<group>"; };
+		B180FD40271424B100E70163 /* filereadstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filereadstream.h; sourceTree = "<group>"; };
+		B180FD41271424B100E70163 /* istreamwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = istreamwrapper.h; sourceTree = "<group>"; };
+		B180FD42271424B100E70163 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
+		B180FD44271424B100E70163 /* ieee754.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ieee754.h; sourceTree = "<group>"; };
+		B180FD45271424B100E70163 /* strtod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strtod.h; sourceTree = "<group>"; };
+		B180FD46271424B100E70163 /* swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swap.h; sourceTree = "<group>"; };
+		B180FD47271424B100E70163 /* regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regex.h; sourceTree = "<group>"; };
+		B180FD48271424B100E70163 /* diyfp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diyfp.h; sourceTree = "<group>"; };
+		B180FD49271424B100E70163 /* biginteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biginteger.h; sourceTree = "<group>"; };
+		B180FD4A271424B100E70163 /* strfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strfunc.h; sourceTree = "<group>"; };
+		B180FD4B271424B100E70163 /* itoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itoa.h; sourceTree = "<group>"; };
+		B180FD4C271424B100E70163 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		B180FD4D271424B100E70163 /* dtoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtoa.h; sourceTree = "<group>"; };
+		B180FD4E271424B100E70163 /* meta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = meta.h; sourceTree = "<group>"; };
+		B180FD4F271424B100E70163 /* pow10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pow10.h; sourceTree = "<group>"; };
+		B180FD50271424B100E70163 /* encodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodings.h; sourceTree = "<group>"; };
+		B180FD51271424B100E70163 /* schema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = schema.h; sourceTree = "<group>"; };
+		B180FD52271424B100E70163 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		B180FD53271424B100E70163 /* filewritestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filewritestream.h; sourceTree = "<group>"; };
+		B180FD54271424B100E70163 /* rapidjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rapidjson.h; sourceTree = "<group>"; };
+		B180FD55271424B100E70163 /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = document.h; sourceTree = "<group>"; };
+		B180FD56271424B100E70163 /* allocators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allocators.h; sourceTree = "<group>"; };
+		B180FD57271424B100E70163 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		B180FD59271424B100E70163 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		B180FD5A271424B100E70163 /* en.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = en.h; sourceTree = "<group>"; };
+		B180FD5B271424B100E70163 /* memorybuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorybuffer.h; sourceTree = "<group>"; };
+		B180FD5C271424B100E70163 /* pointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13E69F2260C744C002BEB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13E69EB260C744C002BEB0A = {
+			isa = PBXGroup;
+			children = (
+				B180FD38271424B100E70163 /* 3rd */,
+				B1654121268D5D6600D6F168 /* exportadmf.h */,
+				B165411F268D52C400D6F168 /* exportadmf.cpp */,
+				B165411E268D529B00D6F168 /* libexportadmf.a */,
+			);
+			sourceTree = "<group>";
+		};
+		B180FD38271424B100E70163 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				B180FD39271424B100E70163 /* rapidjson */,
+			);
+			name = 3rd;
+			path = ../../src/3rd;
+			sourceTree = "<group>";
+		};
+		B180FD39271424B100E70163 /* rapidjson */ = {
+			isa = PBXGroup;
+			children = (
+				B180FD3A271424B100E70163 /* fwd.h */,
+				B180FD3B271424B100E70163 /* memorystream.h */,
+				B180FD3C271424B100E70163 /* reader.h */,
+				B180FD3D271424B100E70163 /* prettywriter.h */,
+				B180FD3E271424B100E70163 /* ostreamwrapper.h */,
+				B180FD3F271424B100E70163 /* encodedstream.h */,
+				B180FD40271424B100E70163 /* filereadstream.h */,
+				B180FD41271424B100E70163 /* istreamwrapper.h */,
+				B180FD42271424B100E70163 /* stringbuffer.h */,
+				B180FD43271424B100E70163 /* internal */,
+				B180FD50271424B100E70163 /* encodings.h */,
+				B180FD51271424B100E70163 /* schema.h */,
+				B180FD52271424B100E70163 /* stream.h */,
+				B180FD53271424B100E70163 /* filewritestream.h */,
+				B180FD54271424B100E70163 /* rapidjson.h */,
+				B180FD55271424B100E70163 /* document.h */,
+				B180FD56271424B100E70163 /* allocators.h */,
+				B180FD57271424B100E70163 /* writer.h */,
+				B180FD58271424B100E70163 /* error */,
+				B180FD5B271424B100E70163 /* memorybuffer.h */,
+				B180FD5C271424B100E70163 /* pointer.h */,
+			);
+			path = rapidjson;
+			sourceTree = "<group>";
+		};
+		B180FD43271424B100E70163 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				B180FD44271424B100E70163 /* ieee754.h */,
+				B180FD45271424B100E70163 /* strtod.h */,
+				B180FD46271424B100E70163 /* swap.h */,
+				B180FD47271424B100E70163 /* regex.h */,
+				B180FD48271424B100E70163 /* diyfp.h */,
+				B180FD49271424B100E70163 /* biginteger.h */,
+				B180FD4A271424B100E70163 /* strfunc.h */,
+				B180FD4B271424B100E70163 /* itoa.h */,
+				B180FD4C271424B100E70163 /* stack.h */,
+				B180FD4D271424B100E70163 /* dtoa.h */,
+				B180FD4E271424B100E70163 /* meta.h */,
+				B180FD4F271424B100E70163 /* pow10.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		B180FD58271424B100E70163 /* error */ = {
+			isa = PBXGroup;
+			children = (
+				B180FD59271424B100E70163 /* error.h */,
+				B180FD5A271424B100E70163 /* en.h */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B13E69F0260C744C002BEB0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B180FD72271424B100E70163 /* dtoa.h in Headers */,
+				B180FD75271424B100E70163 /* encodings.h in Headers */,
+				B180FD6B271424B100E70163 /* swap.h in Headers */,
+				B180FD64271424B100E70163 /* ostreamwrapper.h in Headers */,
+				B180FD7D271424B100E70163 /* error.h in Headers */,
+				B180FD6F271424B100E70163 /* strfunc.h in Headers */,
+				B180FD6E271424B100E70163 /* biginteger.h in Headers */,
+				B180FD78271424B100E70163 /* filewritestream.h in Headers */,
+				B180FD7A271424B100E70163 /* document.h in Headers */,
+				B180FD60271424B100E70163 /* fwd.h in Headers */,
+				B180FD6A271424B100E70163 /* strtod.h in Headers */,
+				B180FD6C271424B100E70163 /* regex.h in Headers */,
+				B180FD62271424B100E70163 /* reader.h in Headers */,
+				B180FD71271424B100E70163 /* stack.h in Headers */,
+				B180FD63271424B100E70163 /* prettywriter.h in Headers */,
+				B180FD73271424B100E70163 /* meta.h in Headers */,
+				B180FD7B271424B100E70163 /* allocators.h in Headers */,
+				B180FD74271424B100E70163 /* pow10.h in Headers */,
+				B180FD77271424B100E70163 /* stream.h in Headers */,
+				B180FD69271424B100E70163 /* ieee754.h in Headers */,
+				B180FD76271424B100E70163 /* schema.h in Headers */,
+				B180FD65271424B100E70163 /* encodedstream.h in Headers */,
+				B180FD70271424B100E70163 /* itoa.h in Headers */,
+				B180FD6D271424B100E70163 /* diyfp.h in Headers */,
+				B180FD7C271424B100E70163 /* writer.h in Headers */,
+				B180FD79271424B100E70163 /* rapidjson.h in Headers */,
+				B180FD61271424B100E70163 /* memorystream.h in Headers */,
+				B180FD67271424B100E70163 /* istreamwrapper.h in Headers */,
+				B180FD66271424B100E70163 /* filereadstream.h in Headers */,
+				B180FD7E271424B100E70163 /* en.h in Headers */,
+				B180FD80271424B100E70163 /* pointer.h in Headers */,
+				B1654122268D5D6600D6F168 /* exportadmf.h in Headers */,
+				B180FD7F271424B100E70163 /* memorybuffer.h in Headers */,
+				B180FD68271424B100E70163 /* stringbuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B13E69F3260C744C002BEB0A /* exportadmf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13E69FF260C744C002BEB0A /* Build configuration list for PBXNativeTarget "exportadmf" */;
+			buildPhases = (
+				B13E69F0260C744C002BEB0A /* Headers */,
+				B13E69F1260C744C002BEB0A /* Sources */,
+				B13E69F2260C744C002BEB0A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exportadmf;
+			productName = exportadmf;
+			productReference = B165411E268D529B00D6F168 /* libexportadmf.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13E69EC260C744C002BEB0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B13E69F3260C744C002BEB0A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B13E69EF260C744C002BEB0A /* Build configuration list for PBXProject "exportadmf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B13E69EB260C744C002BEB0A;
+			productRefGroup = B13E69EB260C744C002BEB0A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13E69F3260C744C002BEB0A /* exportadmf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13E69F1260C744C002BEB0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1654120268D52C400D6F168 /* exportadmf.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B13E69FD260C744C002BEB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B13E69FE260C744C002BEB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B13E6A00260C744C002BEB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					ADMF_EDIT,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../../admfsdk/interface",
+					"$(ShidiDatPath)/Source",
+					"$(ShidiDatPath)/Include",
+					"$(ShidiDatPath)/../../External/source/",
+					"$(ShidiDatPath)/../3rdParty/",
+					"$(ShidiDatPath)/../../External/source/RenderCore/Private/Include",
+					"$(SRCROOT)/../../../../admfsdk/internal",
+					"$(SRCROOT)/../../../../3rd/bson",
+					"$(SRCROOT)/../../../../3rd/ziplib",
+					"$(SRCROOT)/../../../3rd",
+					"$(SRCROOT)/../../../../admfsdk/internal",
+					"$(SRCROOT)/../../../",
+				);
+				HyperRenderPath = /Volumes/Data/plugin/hyperrender;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../src/3rd/FreeImage/lib/macos",
+					"$(SRCROOT)/../../src/3rd/FreeImage",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				ShidiDatPath = "$(HyperRenderPath)/Source/4Ddat";
+			};
+			name = Debug;
+		};
+		B13E6A01260C744C002BEB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = ADMF_EDIT;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../../admfsdk/interface",
+					"$(ShidiDatPath)/Source",
+					"$(ShidiDatPath)/Include",
+					"$(ShidiDatPath)/../../External/source/",
+					"$(ShidiDatPath)/../3rdParty/",
+					"$(ShidiDatPath)/../../External/source/RenderCore/Private/Include",
+					"$(SRCROOT)/../../../../admfsdk/internal",
+					"$(SRCROOT)/../../../../3rd/bson",
+					"$(SRCROOT)/../../../../3rd/ziplib",
+					"$(SRCROOT)/../../../3rd",
+					"$(SRCROOT)/../../../../admfsdk/internal",
+					"$(SRCROOT)/../../../",
+				);
+				HyperRenderPath = /Volumes/Data/plugin/hyperrender;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../src/3rd/FreeImage/lib/macos",
+					"$(SRCROOT)/../../src/3rd/FreeImage",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				ShidiDatPath = "$(HyperRenderPath)/Source/4Ddat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13E69EF260C744C002BEB0A /* Build configuration list for PBXProject "exportadmf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13E69FD260C744C002BEB0A /* Debug */,
+				B13E69FE260C744C002BEB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13E69FF260C744C002BEB0A /* Build configuration list for PBXNativeTarget "exportadmf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13E6A00260C744C002BEB0A /* Debug */,
+				B13E6A01260C744C002BEB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13E69EC260C744C002BEB0A /* Project object */;
+}

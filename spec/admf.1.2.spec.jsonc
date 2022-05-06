@@ -1,0 +1,204 @@
+{
+    "schema": "1.0",
+    "material": {
+        "layers": [
+            {
+                "type": "Fabric",
+                "shader": "",
+                "preview": "/PREVIEW.png",
+                "basic": {
+                    "basecolor": {
+                        "texture": {
+                            "path": "/textures/basecolor.PNG",
+                            "colorSpace": "srgb",
+                            "dpi": {
+                                "x": 300.0,
+                                "y": 300.0
+                            },
+                            "width": 30.0,
+                            "height": 25.0
+                        },
+                        "color": {
+                            "type": "null", //null / multi / solid
+                            "index": 0, //当前生效的色卡 index
+                            "solid": {
+                                "colorSpace": "srgb",
+                                "value": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0
+                                },
+                                "inputBlack": 0,
+                                "inputWhite": 255,
+                                "gamma": 1.0,
+                                "outputBlack": 0,
+                                "outputWhite": 255,
+                                "block": [
+                                    {
+                                        "name": "(166,202,240)",
+                                        "type": "RGB",
+                                        "value": "166,202,240",
+                                        "isOriginal": true, //这个值为true的时候， 其他值忽略， 含义为默认纹理颜色，不做去色和改色
+                                    },
+                                    {
+                                        "name": "(42,63,170)",
+                                        "type": "RGB",
+                                        "value": "42,63,170"
+                                    }
+                                ]
+                            },
+                            "multi": { //多色改色方案/色卡
+                                "block": [ //改色方案/色卡数组
+                                    {
+                                        "name": "multi_1", //色卡名字
+                                        "value": //多色改色的path数组
+                                        [
+                                            {
+                                                "mask": "/textures/PANTONE 20-0060TPM_ChangeColor0.PNG", //和diffuser纹理一样大小的图片，通过非透明区域来识别需要改色的区域
+                                                "value": "166,202,240" //所改颜色值
+                                            },
+                                            {
+                                                "mask": "/textures/PANTONE 20-0060TPM_ChangeColor1.PNG", //改色块划分。
+                                                "value": "166,202,240"
+                                            },
+                                            {
+                                                "mask": "/textures/PANTONE 20-0060TPM_ChangeColor2.PNG", //改色块划分。
+                                                "value": "166,202,240"
+                                            },
+                                        ]
+                                    },
+                                    {
+                                        "name": "multi_2",
+                                        "value": [
+                                            {
+                                                "mask": "/textures/PANTONE 20-0060TPM_ChangeColor0.PNG",
+                                                "value": "166,202,240" //所改颜色值
+                                            },
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "normal": {
+                        "value": 1.0,
+                        "texture": {
+                            "path": "/textures/PANTONE 20-0060TPM_NORMAL.PNG",
+                            "colorSpace": "linear",
+                            "dpi": {
+                                "x": 300.0,
+                                "y": 300.0
+                            },
+                            "width": 30.0,
+                            "height": 25.0
+                        }
+                    },
+                    "emissive": 0.0,
+                    "alpha": {
+                        "value": 1.0,
+                        "texture": {
+                            "path": "/textures/PANTONE 20-0060TPM_ALPHA.PNG",
+                            "colorSpace": "linear",
+                            "dpi": {
+                                "x": 300.0,
+                                "y": 300.0
+                            },
+                            "width": 30.0,
+                            "height": 25.0
+                        }
+                    },
+                    "metalness": {
+                        "value": 1.0,
+                        "texture": null
+                    },
+                    "roughness": {
+                        "value": 1.0,
+                        "texture": null
+                    },
+                    "specular": {
+                        "color": {
+                            "colorSpace": "srgb",
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        },
+                        "texture": {
+                            "path": "/textures/PANTONE 20-0060TPM_SPECULAR.PNG",
+                            "colorSpace": "srgb",
+                            "dpi": {
+                                "x": 300.0,
+                                "y": 300.0
+                            },
+                            "width": 30.0,
+                            "height": 25.0
+                        }
+                    },
+                    "glossiness": {
+                        "value": 1.0,
+                        "texture": {
+                            "path": "/textures/PANTONE 20-0060TPM_GLOSS.PNG",
+                            "colorSpace": "linear",
+                            "dpi": {
+                                "x": 300.0,
+                                "y": 300.0
+                            },
+                            "width": 30.0,
+                            "height": 25.0
+                        }
+                    },
+                    "transform": {
+                        "wrapping": "repeat",
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 0.003000000026077032,
+                            "y": 0.003000000026077032
+                        },
+                        "rotation": 0.0
+                    }
+                },
+                "spec": {
+                    "refraction": {
+                        "color": {
+                            "colorSpace": "srgb",
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        },
+                        "glossiness": 1.0
+                    }
+                }
+            }
+        ],
+        "side": null,
+        "device": null,
+        "created": "2018-11-08T12:35:37",
+        "modified": "2020-11-03T07:59:55Z",
+        "id": "0001",
+        "name": "PANTONE 20-0060TPM",
+        "metadata": {
+            "source": "/PANTONE 20-0060TPM.4Ddat"
+        }
+    },
+    "physics": {
+        "device": "fab",
+        "path": "/browzwear_physics_example.json",
+        "composition": [
+            {
+                "name": "Cotton",
+                "percentage": 0.5
+            },
+            {
+                "name": "other",
+                "percentage": 0.5
+            }
+        ],
+        "thickness": 0.20203900337219239
+    },
+    "geometry": null,
+    "custom": {
+        "company": "sdzn"
+    }
+}

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f9e0f851-7744-41ec-a2ad-455aa95217d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd">
+      <UniqueIdentifier>{406cdb34-2613-4ec9-a122-164dc2012af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\lz4">
+      <UniqueIdentifier>{197b4e48-a5e9-4bc7-b5d2-04c4b425962f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\FreeImage">
+      <UniqueIdentifier>{1c65a688-45c1-4df5-b712-c540d5986730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\ctpl">
+      <UniqueIdentifier>{53801925-9ad9-4c41-9b97-8e56b970eb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\rapidxml">
+      <UniqueIdentifier>{f3186eee-4c97-40f7-b9c4-fd0c2d3b6f9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\4ddat_to_admf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\lz4\lz4.c">
+      <Filter>src\3rd\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\lz4\lz4frame.c">
+      <Filter>src\3rd\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\lz4\lz4hc.c">
+      <Filter>src\3rd\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\lz4\xxhash.c">
+      <Filter>src\3rd\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\datestring_to_int.cpp" />
+    <ClCompile Include="..\..\src\xtex_to_admf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\4ddat_to_admf.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\FreeImage\FreeImage.h">
+      <Filter>src\3rd\FreeImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\lz4\lz4.h">
+      <Filter>src\3rd\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\lz4\lz4frame.h">
+      <Filter>src\3rd\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\lz4\lz4frame_static.h">
+      <Filter>src\3rd\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\lz4\lz4hc.h">
+      <Filter>src\3rd\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\lz4\xxhash.h">
+      <Filter>src\3rd\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\ctpl\ctpl.h">
+      <Filter>src\3rd\ctpl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\ctpl\ctpl_stl.h">
+      <Filter>src\3rd\ctpl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\datestring_to_int.hpp" />
+    <ClInclude Include="..\..\src\xtex_to_admf.hpp" />
+    <ClInclude Include="..\..\..\3rd\rapidxml\rapidxml.hpp">
+      <Filter>src\3rd\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\rapidxml\rapidxml_iterators.hpp">
+      <Filter>src\3rd\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\rapidxml\rapidxml_print.hpp">
+      <Filter>src\3rd\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\rapidxml\rapidxml_utils.hpp">
+      <Filter>src\3rd\rapidxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="..\..\..\changecolor\project\win\changecolor.vcxproj" />
+  </ItemGroup>
+</Project>

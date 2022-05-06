@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3rd">
+      <UniqueIdentifier>{64ac56a9-10bb-442c-8c2c-4d37e806505a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\bson">
+      <UniqueIdentifier>{1b8403a3-b607-4ea9-987a-8f02d671893d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\jsonsl">
+      <UniqueIdentifier>{d131bfae-f6ee-4f2d-a400-4906d6b88211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\encrypt">
+      <UniqueIdentifier>{6fbaaef0-13aa-48a5-a8fc-b8741431f70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib">
+      <UniqueIdentifier>{e4acf2e5-60e5-4f2b-a784-2db488801b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\compression">
+      <UniqueIdentifier>{06db691a-8833-42da-83e2-81e2caf0b2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\compression\deflate">
+      <UniqueIdentifier>{636be53b-e7e4-4722-9181-1d0e9363e99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\compression\store">
+      <UniqueIdentifier>{19b17143-b8b0-472c-b9f8-eb052eb7dd82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\detail">
+      <UniqueIdentifier>{95cb3aee-a7ea-44cc-a419-4c5703ee2bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\extlibs">
+      <UniqueIdentifier>{01e5d61f-3d77-4b0c-82a3-eca0fc0f7119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\extlibs\zlib">
+      <UniqueIdentifier>{71ab05cb-df5c-44d4-a7f2-8522fd5906f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\methods">
+      <UniqueIdentifier>{dbe6092e-7c24-4240-b046-8ecbd587264d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\streams">
+      <UniqueIdentifier>{369cc83f-0551-4fc2-8b8d-b24c38e71001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\streams\streambuffs">
+      <UniqueIdentifier>{f29eefc7-6ffb-4334-9ffe-53a3929ca063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\ZipLib\utils">
+      <UniqueIdentifier>{1ddcbd41-ecfb-4f52-a5f7-f245a762c15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="admfsdk">
+      <UniqueIdentifier>{52502726-ca3a-47eb-bcc4-246550abb9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="admfsdk\internal">
+      <UniqueIdentifier>{a3b2371a-bebf-4a00-b3d1-ac156f1251c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="admfsdk\src">
+      <UniqueIdentifier>{cdae5c97-9dae-4cda-99ba-d4262900b9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="admfsdk\interface">
+      <UniqueIdentifier>{82110bcf-2311-4cc2-818c-011e029810d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\3rd\bson\b64_ntop.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\b64_pton.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bcon.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-atomic.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-clock.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-compat.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-config.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-context.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-context-private.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-decimal128.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-endian.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-error.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-iso8601-private.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-iter.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-json.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-keys.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-macros.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-md5.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-memory.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-oid.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-private.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-reader.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-stdint.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-stdint-win32.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-string.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-thread-private.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-timegm-private.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-types.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-utf8.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-value.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-version.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-version-functions.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\bson\bson-writer.h">
+      <Filter>3rd\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\jsonsl\jsonsl.h">
+      <Filter>3rd\jsonsl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\encrypt\base64.h">
+      <Filter>3rd\encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\encrypt\render_helper.h">
+      <Filter>3rd\encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\ZipArchive.h">
+      <Filter>3rd\ZipLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\ZipArchiveEntry.h">
+      <Filter>3rd\ZipLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\ZipEnums.h">
+      <Filter>3rd\ZipLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\ZipFile.h">
+      <Filter>3rd\ZipLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\compression_interface.h">
+      <Filter>3rd\ZipLib\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\deflate\deflate_decoder.h">
+      <Filter>3rd\ZipLib\compression\deflate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\deflate\deflate_decoder_properties.h">
+      <Filter>3rd\ZipLib\compression\deflate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\deflate\deflate_encoder.h">
+      <Filter>3rd\ZipLib\compression\deflate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\deflate\deflate_encoder_properties.h">
+      <Filter>3rd\ZipLib\compression\deflate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\store\store_decoder.h">
+      <Filter>3rd\ZipLib\compression\store</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\store\store_decoder_properties.h">
+      <Filter>3rd\ZipLib\compression\store</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\store\store_encoder.h">
+      <Filter>3rd\ZipLib\compression\store</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\compression\store\store_encoder_properties.h">
+      <Filter>3rd\ZipLib\compression\store</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\detail\EndOfCentralDirectoryBlock.h">
+      <Filter>3rd\ZipLib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\detail\ZipCentralDirectoryFileHeader.h">
+      <Filter>3rd\ZipLib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\detail\ZipGenericExtraField.h">
+      <Filter>3rd\ZipLib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\detail\ZipLocalFileHeader.h">
+      <Filter>3rd\ZipLib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\crc32.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\deflate.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\gzguts.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\inffast.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\inffixed.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\inflate.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\inftrees.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\trees.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\zconf.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\zlib.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\extlibs\zlib\zutil.h">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\methods\DeflateMethod.h">
+      <Filter>3rd\ZipLib\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\methods\ICompressionMethod.h">
+      <Filter>3rd\ZipLib\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\methods\StoreMethod.h">
+      <Filter>3rd\ZipLib\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\methods\ZipMethodResolver.h">
+      <Filter>3rd\ZipLib\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\streambuffs\compression_decoder_streambuf.h">
+      <Filter>3rd\ZipLib\streams\streambuffs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\streambuffs\compression_encoder_streambuf.h">
+      <Filter>3rd\ZipLib\streams\streambuffs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\streambuffs\crc32_streambuf.h">
+      <Filter>3rd\ZipLib\streams\streambuffs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\streambuffs\mem_streambuf.h">
+      <Filter>3rd\ZipLib\streams\streambuffs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\streambuffs\null_streambuf.h">
+      <Filter>3rd\ZipLib\streams\streambuffs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\streambuffs\sub_streambuf.h">
+      <Filter>3rd\ZipLib\streams\streambuffs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\streambuffs\tee_streambuff.h">
+      <Filter>3rd\ZipLib\streams\streambuffs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\streambuffs\zip_crypto_streambuf.h">
+      <Filter>3rd\ZipLib\streams\streambuffs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\compression_decoder_stream.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\compression_encoder_stream.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\crc32stream.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\memstream.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\nullstream.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\serialization.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\substream.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\teestream.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\streams\zip_cryptostream.h">
+      <Filter>3rd\ZipLib\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\utils\enum_utils.h">
+      <Filter>3rd\ZipLib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\utils\stream_utils.h">
+      <Filter>3rd\ZipLib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\ZipLib\utils\time_utils.h">
+      <Filter>3rd\ZipLib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_base_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_basecolordata_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_custom_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_geometry_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_internal_header.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_main_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_material_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_materiallayer_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_physics_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\internal\admf_pipeline_internal.h">
+      <Filter>admfsdk\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_base.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_basecolordata.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_cpp.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_custom.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_geometry.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_main.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_material.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_materiallayer.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_physics.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\admfsdk\interface\admf_pipeline.h">
+      <Filter>admfsdk\interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\3rd\bson\bcon.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-atomic.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-clock.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-context.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-decimal128.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-error.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-iso8601.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-iter.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-json.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-keys.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-md5.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-memory.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-oid.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-reader.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-string.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-timegm.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-utf8.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-value.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-version-functions.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\bson\bson-writer.c">
+      <Filter>3rd\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\jsonsl\jsonsl.c">
+      <Filter>3rd\jsonsl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\encrypt\base64.cpp">
+      <Filter>3rd\encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\encrypt\render_helper.cpp">
+      <Filter>3rd\encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\ZipArchive.cpp">
+      <Filter>3rd\ZipLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\ZipArchiveEntry.cpp">
+      <Filter>3rd\ZipLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\ZipFile.cpp">
+      <Filter>3rd\ZipLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\detail\EndOfCentralDirectoryBlock.cpp">
+      <Filter>3rd\ZipLib\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\detail\ZipCentralDirectoryFileHeader.cpp">
+      <Filter>3rd\ZipLib\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\detail\ZipGenericExtraField.cpp">
+      <Filter>3rd\ZipLib\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\detail\ZipLocalFileHeader.cpp">
+      <Filter>3rd\ZipLib\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\adler32.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\compress.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\crc32.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\deflate.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\infback.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\inffast.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\inftrees.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\trees.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\uncompr.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\zutil.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_base_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_basecolordata_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_custom_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_geometry_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_main_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_material_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_materiallayer_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_physics_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\internal\admf_pipeline_internal.cpp">
+      <Filter>admfsdk\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\admfsdk\src\admfsdk.cpp">
+      <Filter>admfsdk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\ZipLib\extlibs\zlib\inflate.c">
+      <Filter>3rd\ZipLib\extlibs\zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

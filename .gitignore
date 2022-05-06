@@ -1,0 +1,13 @@
+*.xcworkspacedata
+project/macos/admfsdk.xcodeproj/project.xcworkspace/xcshareddata
+project/macos/admfsdk.xcodeproj/project.xcworkspace/xcuserdata
+project/macos/admfsdk.xcodeproj/xcuserdata/yushihang.xcuserdatad/xcschemes
+project/macos/admfsdk.xcodeproj/xcuserdata/yushihang.xcuserdatad/xcdebugger
+admfsdk/internal/.vscode
+material_import/4ddat/project/macos/4ddat2admfTest/4ddat2admfTest.xcodeproj/xcuserdata/yushihang.xcuserdatad/xcdebugger
+material_import/4ddat/project/macos/4ddat_to_admf.xcodeproj/xcuserdata/yushihang.xcuserdatad/xcdebugger
+.xcuserdatad
+*.xcuserdatad
+.vs
+Debug
+Release

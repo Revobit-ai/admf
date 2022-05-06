@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\changecolor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\changecolor.h" />
+    <ClInclude Include="..\..\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3rd">
+      <UniqueIdentifier>{10223319-f9b3-4b0f-9c47-d8d6413c8c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\opencv">
+      <UniqueIdentifier>{66b78015-0fb3-4862-aa46-1e612503648b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\opencv\include">
+      <UniqueIdentifier>{cafcc8b9-4040-411d-93af-21db52e94d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd\opencv\lib">
+      <UniqueIdentifier>{ae6b0aa0-3220-435d-b66f-020b71e37157}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

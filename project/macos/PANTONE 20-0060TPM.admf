@@ -1,0 +1,172 @@
+{
+    "schema": "1.0",
+    "material": {
+        "layers": [
+			{
+				"type": "Fabric",
+				"shader": "",
+				"preview": "/PREVIEW.png",
+				"basic": {
+					"basecolor": {
+						"texture": {
+							"path": "/textures/PANTONE 20-0060TPM_COLOR.PNG",
+							"colorSpace": "srgb",
+							"dpi": {
+								"x": 300.0,
+								"y": 300.0
+							},
+							"width": 30.0,
+							"height": 25.0
+						},
+						"color": {
+							"type": "null",
+							"solid": {
+								"colorSpace": "srgb",
+								"value": {
+									"r": 1.0,
+									"g": 1.0,
+									"b": 1.0
+								},
+								"inputBlack": 0,
+								"inputWhite": 255,
+								"gamma": 1.0,
+								"outputBlack": 0,
+								"outputWhite": 255,
+								"block": [
+									{
+										"name": "(166,202,240)",
+										"type": "RGB",
+										"value": "166,202,240"
+									},
+									{
+										"name": "(42,63,170)",
+										"type": "RGB",
+										"value": "42,63,170"
+									}
+								]
+							},
+							"multi": null
+						}
+					},
+					"normal": {
+						"value": 1.0,
+						"texture": {
+							"path": "/textures/PANTONE 20-0060TPM_NORMAL.PNG",
+							"colorSpace": "linear",
+							"dpi": {
+								"x": 300.0,
+								"y": 300.0
+							},
+							"width": 30.0,
+							"height": 25.0
+						}
+					},
+					"emissive": 0.0,
+					"alpha": {
+						"value": 1.0,
+						"texture": {
+							"path": "/textures/PANTONE 20-0060TPM_ALPHA.PNG",
+							"colorSpace": "linear",
+							"dpi": {
+								"x": 300.0,
+								"y": 300.0
+							},
+							"width": 30.0,
+							"height": 25.0
+						}
+					},
+					"metalness": {
+						"value": 1.0,
+						"texture": null
+					},
+					"roughness": {
+						"value": 1.0,
+						"texture": null
+					},
+					"specular": {
+						"color": {
+							"colorSpace": "srgb",
+							"r": 1.0,
+							"g": 1.0,
+							"b": 1.0
+						},
+						"texture": {
+							"path": "/textures/PANTONE 20-0060TPM_SPECULAR.PNG",
+							"colorSpace": "srgb",
+							"dpi": {
+								"x": 300.0,
+								"y": 300.0
+							},
+							"width": 30.0,
+							"height": 25.0
+						}
+					},
+					"glossiness": {
+						"value": 1.0,
+						"texture": {
+							"path": "/textures/PANTONE 20-0060TPM_GLOSS.PNG",
+							"colorSpace": "linear",
+							"dpi": {
+								"x": 300.0,
+								"y": 300.0
+							},
+							"width": 30.0,
+							"height": 25.0
+						}
+					},
+					"transform": {
+						"wrapping": "repeat",
+						"offset": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"scale": {
+							"x": 0.003000000026077032,
+							"y": 0.003000000026077032
+						},
+						"rotation": 0.0
+					}
+				},
+				"spec": {
+					"refraction": {
+						"color": {
+							"colorSpace": "srgb",
+							"r": 1.0,
+							"g": 1.0,
+							"b": 1.0
+						},
+						"glossiness": 1.0
+					}
+				}
+			}
+		],
+        "side": null,
+		"device": null,
+        "created": "2018-11-08T12:35:37",
+        "modified": "2020-11-03T07:59:55Z",
+        "id": "0001",
+        "name": "PANTONE 20-0060TPM",
+        "metadata": {
+			"source": "/PANTONE 20-0060TPM.4Ddat"
+		}
+    },
+	"physics": {
+		"device": "fab",
+		"path": "/browzwear_physics_example.json",
+		"composition": [
+			{
+				"name": "Cotton",
+				"percentage": 0.5
+			},
+			{
+				"name": "other",
+				"percentage": 0.5
+			}
+		],
+		"thickness": 0.20203900337219239
+	},
+	"geometry": null,
+    "custom": {
+		"company": "sdzn"
+	}
+}
